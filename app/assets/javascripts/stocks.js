@@ -1,7 +1,3 @@
-$(document).ready(function() {
-  init_stock_lookup();
-})
-
 var init_stock_lookup;
 
 init_stock_lookup = function(){
@@ -24,4 +20,12 @@ init_stock_lookup = function(){
     $('#stock-lookup-errors').replaceWith('Stock was not found.');
   });
 }
+
+$(document).ready(function() {
+  init_stock_lookup();
+})
+
+
+
+
 
